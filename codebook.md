@@ -1,0 +1,4 @@
+-x_train, y_train, x_test, y_test, subject_train, subject_test contain the data from the files
+-x_data, y_data and subject_data merge the previous datasets
+-all_data merges x_data, y_data and subject_data in a big dataset.
+-averages_data contains the relevant averages which will be later stored in a .txt file. ddply() from the plyr package is used to apply colMeans()
